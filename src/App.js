@@ -1,17 +1,17 @@
-import React from 'react';
-import FormularioCadastro from './componets/FormularioCadastro';
-import ListaDeNotas from './componets/listaDeNotas';
+import FormularioDecadastro from "./components/Formulario/FormularioDeCadastro";
+import ListaNotas from "./components/ListaDeNotas/ListaNotas";
+import "./App.css"
 
 
 
 function App() {
   return (
-   <section>
+    <section className="conteudo">
+      <FormularioDecadastro/>
+      <ListaNotas/>
+     
+    </section>
 
-   <FormularioCadastro/>
-   <ListaDeNotas/>
-   </section>
   );
 }
-
 export default App;
